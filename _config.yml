@@ -7,7 +7,7 @@ include:
   - README.md
   - LICENSE.md
 url: https://thingking-machine.github.io
-baseurl: /fireworksr
+baseurl: /fireworksm
 
 title: Thingking Machine
 description: A machine is a thing. Things can not think. ...but some of them can thingk!
@@ -22,7 +22,7 @@ lm:
   top_k: 50
 
 app:
-  worker_name: fireapi.js
+  worker_name: firemapi.js
 
 machine:
   name: Thingking-Machine
@@ -31,7 +31,7 @@ machine:
   token: fireworks
   server: https://localhost:443
   apiUrl: https://api.fireworks.ai/inference/v1/chat/completions
-  default_instruction: >
+  default_instruction: >-
     You are Thingking-Machine — a language model designed to
     participate as an active entity in multi-entity/multi-turn
     conversations.
