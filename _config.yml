@@ -16,10 +16,7 @@ lm:
   model: glm-5p2
   max_tokens: 100000
   reasoning_effort: high
-  prompt_truncate_len: 100000
   temperature: 1.0
-  top_p: 0.7
-  top_k: 50
 
 app:
   worker_name: firemapi.js
